@@ -1,0 +1,23 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment secrets & local settings
+.env
+data/settings.json
+
+# Runtime service states & logs
+data/active_services.json
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
